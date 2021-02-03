@@ -8,6 +8,11 @@ def spin_chamber():
 
 #  DON'T CHANGE THE CODE ABOVE
 def fire_gun():
+    chamber_position = spin_chamber()
+    if chamber_position == bullet_position :
+        return "The heavy is dead"
+    else :
+        return "Lararara"
 	# YOUR CODE HERE
 
 
